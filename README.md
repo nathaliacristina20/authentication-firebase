@@ -13,11 +13,11 @@
 
 ## :computer: Technologies
 
-- Angular
-- Angular Material
-- Json Server 
-- Token JWT
-- ESLint
+- <a href="https://angular.io/">Angular</a>
+- <a href="https://material.angular.io/">Angular Material</a>
+- <a href="https://github.com/typicode/json-server">Json Server</a>
+- <a href="https://www.npmjs.com/package/jsonwebtoken">jsonwebtoken</a>
+- <a href="https://github.com/typicode/json-server">ESLint</a>
 
 ## :dart: Specification of functionalities
 
