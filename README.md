@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-  <a href="#computer-technologies">Technologies</a> | <a href="#dart-specification-of-functionalities">Specification of functionalities</a> | <a href="#pencil-how-to-use">How To Use</a> | <a href="#clipboard-license">License</a>
+  <a href="#computer-technologies">Technologies</a> | <a href="#dart-specification-of-functionalities">Specification of functionalities</a> | <a href="#books-installation-guide">Installation guide</a> | <a href="#pencil-how-to-contribute">How to contribute</a> | <a href="#clipboard-license">License</a>
 </p>
 
 ## :computer: Technologies
@@ -36,15 +36,15 @@
 - Character
 - Capital letter 
 
-## :books: Guia de instalação e execução
+## :books: Installation guide
 
-### Pré-requisitos
+### Prerequisites
 :construction: In construction!
 
-### Como executar
+### How to started
 :construction: In construction!
 
-## :pencil: Como contribuir
+## :pencil: How to contribute
 :construction: In construction!
 
 ## :clipboard: License
