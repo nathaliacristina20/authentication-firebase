@@ -5,10 +5,9 @@ Angular Authentication Page
   <strong>A simple registration page for new users and authenticated login with JWT token</strong>
 </p>
 
-  [Link to Header](#technologies) | Specification of functionalities | How To Use | License
+  [Link to Header](#computer-technologies) | Specification of functionalities | How To Use | License
 
-:computer: 
-## Technologies
+## :computer: Technologies
 
 - Angular
 - Angular Material
