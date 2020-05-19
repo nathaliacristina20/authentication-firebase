@@ -22,10 +22,19 @@
 ## :dart: Specification of functionalities
 
 #### Functional requirements  
-- [ ] reres
+- [ ] The user must be able to register
+- [ ] The user must be able to login
 
 #### Non-functional requirements
-- [ ] srs
+- [ ] Authentication must be performed using the JWT token strategy
+
+### Business rules
+- [ ] The user cannot register with an email already registered
+- [ ] The user must authenticate using an email and password
+- [ ] The user's password must obey the following validations: 
+- Number
+- Character
+- Capital letter 
 
 ## :pencil: How To Use
 
