@@ -7,7 +7,12 @@
   <strong>A simple registration page for new users and authenticated login with JWT token</strong>
 </p>
 
-<a href="(#computer-technologies)">Teste</a>
+<a href="(#computer-technologies)">Teste1</a>
+<a href="#computer-technologies">Teste2</a>
+<a href="[#computer-technologies]">Teste3</a>
+
+<a href=[#computer-technologies)]>Teste4</a>
+
 [Technologies](#computer-technologies) | [Specification of functionalities](#dart-specification-of-functionalities) | [How To Use](#pencil-how-to-use) | [License](#clipboard-license)
 
 
