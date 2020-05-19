@@ -28,7 +28,7 @@
 #### Non-functional requirements
 - [ ] Authentication must be performed using the JWT token strategy
 
-### Business rules
+#### Business rules
 - [ ] The user cannot register with an email already registered
 - [ ] The user must authenticate using an email and password
 - [ ] The user's password must obey the following validations: 
