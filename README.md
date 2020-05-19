@@ -1,11 +1,13 @@
-Angular Authentication Page
-======
+
+<h1 align="center">
+  Angular Authentication Page
+</h1>
 
 <p align="center">
   <strong>A simple registration page for new users and authenticated login with JWT token</strong>
 </p>
 
-  [Link to Header](#computer-technologies) | Specification of functionalities | How To Use | License
+  [Technologies](#computer-technologies) | [Specification of functionalities](#dart-specification-of-functionalities) | [How To Use](#pencil-how-to-use) | [License](#clipboard-license)
 
 ## :computer: Technologies
 
