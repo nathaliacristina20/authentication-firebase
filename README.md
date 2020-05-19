@@ -42,7 +42,7 @@
 
 ## :clipboard: License
 
-This project is under the MIT license. See the LICENSE for more information.
+This project is under the MIT license. See the <a href="https://github.com/nathaliacristina20/angular-authentication/blob/master/LICENSE">LICENSE</a> for more information.
 
 <hr />
 <p>by Nathalia Cristina :wave: <a href="https://linktr.ee/nathaliacristina20">Get in touch!</a></p>
