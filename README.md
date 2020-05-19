@@ -45,4 +45,4 @@
 This project is under the MIT license. See the LICENSE for more information.
 
 <hr />
-<p>by Nathalia Cristina :wave:</p>
+<p>by Nathalia Cristina :wave:</p> <a href="https://linktr.ee/nathaliacristina20">Get in touch!</a>
