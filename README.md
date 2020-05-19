@@ -36,9 +36,16 @@
 - Character
 - Capital letter 
 
-## :pencil: How To Use
+## :books: Guia de instalação e execução
 
-... In construction ...
+### Pré-requisitos
+:construction: In construction!
+
+### Como executar
+:construction: In construction!
+
+## :pencil: Como contribuir
+:construction: In construction!
 
 ## :clipboard: License
 
