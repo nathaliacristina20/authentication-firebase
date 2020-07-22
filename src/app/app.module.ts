@@ -11,19 +11,32 @@ import { AngularFirestoreModule } from '@angular/fire/firestore';
 
 import { MaterialModule } from './material-module';
 import { environment } from 'src/environments/environment';
+import { NotFoundComponent } from './not-found/not-found.component';
+
+import { FlexLayoutModule } from '@angular/flex-layout';
+import { LoginComponent } from './auth/login/login.component';
+import { RegisterComponent } from './auth/register/register.component';
+import { AuthModule } from './auth/auth.module';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
     declarations: [
-        AppComponent
+        AppComponent,
+        NotFoundComponent,
+        LoginComponent,
+        RegisterComponent
     ],
     imports: [
         BrowserModule,
-        AppRoutingModule,
         BrowserAnimationsModule,
         MaterialModule,
         AngularFireModule.initializeApp(environment.firebaseConfig),
         AngularFireAuthModule,
-        AngularFirestoreModule
+        AngularFirestoreModule,
+        AuthModule,
+        AppRoutingModule,
+        FlexLayoutModule,
+        ReactiveFormsModule
     ],
     providers: [],
     bootstrap: [AppComponent]

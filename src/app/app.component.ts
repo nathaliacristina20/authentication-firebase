@@ -10,4 +10,10 @@ import { User } from './auth/user';
 export class AppComponent {
     user$: Observable<User>;
     authenticated$: Observable<boolean>;
+
+    logout(){
+
+    }
 }
+
+
