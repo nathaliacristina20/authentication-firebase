@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { Observable } from 'rxjs';
+import { User } from './auth/user';
 
 @Component({
     selector: 'app-root',
@@ -6,5 +8,6 @@ import { Component } from '@angular/core';
     styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-    title = 'angular-authentication';
+    user$: Observable<User>;
+    authenticated$: Observable<boolean>;
 }

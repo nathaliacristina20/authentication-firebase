@@ -5,7 +5,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
+import { AngularFireModule } from '@angular/fire';
+import { AngularFireAuthModule } from '@angular/fire/auth';
+import { AngularFirestoreModule } from '@angular/fire/firestore';
+
 import { MaterialModule } from './material-module';
+import { environment } from 'src/environments/environment';
+
 @NgModule({
     declarations: [
         AppComponent
@@ -14,7 +20,10 @@ import { MaterialModule } from './material-module';
         BrowserModule,
         AppRoutingModule,
         BrowserAnimationsModule,
-        MaterialModule
+        MaterialModule,
+        AngularFireModule.initializeApp(environment.firebaseConfig),
+        AngularFireAuthModule,
+        AngularFirestoreModule
     ],
     providers: [],
     bootstrap: [AppComponent]
