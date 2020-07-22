@@ -4,7 +4,7 @@
 </h1>
 
 <p align="center">
-  <strong>A simple registration page for new users and authenticated login with JWT token</strong>
+  <strong>A simple registration page for new users and authenticated login with Firebase</strong>
 </p>
 
 <p align="center">
@@ -15,22 +15,23 @@
 
 - <a href="https://angular.io/">Angular</a>
 - <a href="https://material.angular.io/">Angular Material</a>
-- <a href="https://github.com/typicode/json-server">Json Server</a>
-- <a href="https://www.npmjs.com/package/jsonwebtoken">jsonwebtoken</a>
-- <a href="https://github.com/typicode/json-server">ESLint</a>
+- <a href="https://firebase.google.com/">Firebase</a>
+- <a href="https://eslint.org/">ESLint</a>
+- <a href="https://prettier.io/">Prettier</a>
+- <a href="https://editorconfig.org/">EditorConfig</a>
 
 ## :dart: Specification of functionalities
 
 #### Functional requirements  
-- [ ] The user must be able to register
-- [ ] The user must be able to login
+- [X] The user must be able to register
+- [X] The user must be able to login
 
 #### Non-functional requirements
-- [ ] Authentication must be performed using the JWT token strategy
+- [X] Authentication must be performed using the Firebase
 
 #### Business rules
 - [ ] The user cannot register with an email already registered
-- [ ] The user must authenticate using an email and password
+- [X] The user must authenticate using an email and password
 - [ ] The user's password must obey the following validations: 
 - Number
 - Character
