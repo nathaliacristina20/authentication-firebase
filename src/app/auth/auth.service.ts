@@ -3,7 +3,7 @@ import { AngularFirestore, AngularFirestoreCollection } from '@angular/fire/fire
 import { User } from './user';
 import { AngularFireAuth } from '@angular/fire/auth';
 import { Observable, from, throwError } from 'rxjs';
-import { switchMap, catchError } from 'rxjs/operators';
+import { switchMap, catchError, map } from 'rxjs/operators';
 
 @Injectable({
     providedIn: 'root'
@@ -40,5 +40,19 @@ export class AuthService {
 
     logout(): void{
         this.afAuth.signOut();
+    }
+
+    getUser(): Observable<User | null>{
+        return this.afAuth.authState
+            .pipe(
+                switchMap(u => u ? this.userCollection.doc<User>(u.uid).valueChanges() : null)
+            );
+    }
+
+    authenticated(): Observable<boolean>{
+        return this.afAuth.authState
+            .pipe(
+                map(u => u ? true : false)
+            );
     }
 }
