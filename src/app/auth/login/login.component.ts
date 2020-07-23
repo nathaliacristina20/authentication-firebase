@@ -48,8 +48,18 @@ export class LoginComponent implements OnInit {
             );
     }
 
-    loginGoogle(){
-
+    loginGoogle(): void {
+        this.authService.loginGoogle().subscribe(
+            (u) => {
+                this.loginOkNotification(u);
+                this.router.navigateByUrl('/');
+                this.loading = false;
+            },
+            (err) => {
+                this.loginErrorNotification(err);
+                this.loading = false;
+            }
+        );
     }
 
     private loginOkNotification(u: User): void {
