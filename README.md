@@ -20,33 +20,17 @@
 - <a href="https://prettier.io/">Prettier</a>
 - <a href="https://editorconfig.org/">EditorConfig</a>
 
-## :dart: Specification of functionalities
-
-#### Functional requirements  
-- [X] The user must be able to register
-- [X] The user must be able to login
-
-#### Non-functional requirements
-- [X] Authentication must be performed using the Firebase
-
-#### Business rules
-- [ ] The user cannot register with an email already registered
-- [X] The user must authenticate using an email and password
-- [ ] The user's password must obey the following validations: 
-- Number
-- Character
-- Capital letter 
-
 ## :books: Installation guide
 
-### Prerequisites
-:construction: In construction!
+```bash
+git clone https://github.com/nathaliacristina20/authentication-firebase.git && cd authentication-firebase
 
-### How to started
-:construction: In construction!
+yarn
 
-## :pencil: How to contribute
-:construction: In construction!
+yarn start
+
+# Done! Open the url http://localhost:4200 no browser in your brownser.
+```
 
 ## :clipboard: License
 
